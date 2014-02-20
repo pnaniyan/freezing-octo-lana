@@ -21,10 +21,14 @@
                     console.log("c&");
                     console.log(e);
                 });
+                $("#next").on("focus", function(e) {
+                    console.log(e);
+                });
             });
         </script>
     </head>
     <body>
         <input type="number" id="debug" />
+        <input type='text' style="opacity:0;" id="next" />
     </body>
 </html>
